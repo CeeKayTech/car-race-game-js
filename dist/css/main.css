@@ -1,0 +1,29 @@
+.hide {
+  display: none;
+}
+
+.car {
+  position: absolute;
+  bottom: 100px;
+  margin: auto;
+  width: 50px;
+  height: 100px;
+  background-color: red;
+}
+
+.line {
+  position: absolute;
+  height: 100vh;
+  width: 10px;
+  margin: auto;
+  background-color: white;
+}
+
+.game .gameArea {
+  background-color: black;
+  width: 250px;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}/*# sourceMappingURL=main.css.map */
