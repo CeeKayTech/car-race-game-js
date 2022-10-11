@@ -13,15 +13,15 @@
 
 .line {
   position: absolute;
-  height: 100vh;
+  height: 100px;
   width: 10px;
-  margin: auto;
+  margin-left: 95px;
   background-color: white;
 }
 
 .game .gameArea {
   background-color: black;
-  width: 250px;
+  width: 200px;
   height: 100vh;
   overflow: hidden;
   position: relative;
