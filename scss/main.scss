@@ -2,27 +2,56 @@
     display: none;
 }
 
-.car{
+.car, .enemy{
     position: absolute;
     bottom: 100px;
     margin: auto;
     width: 50px;
+    line-height: 38px;
     height: 100px;
-    background-color: red;
+    font-size: 1.2em;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(/img/car.png);
+    background-size: cover;
+    
+}
+.score{
+    background-color: black;
+    color: #fff;
+    padding: 1em 0;
+    font-size: 18px;
+    text-align: center;
 }
 
 .line{
     position: absolute;
     height: 100px;
     width: 10px;
-    margin-left: 95px;
+    margin-left: 195px;
     background-color: white;
 }
 .game .gameArea{
     background-color: black;
-    width: 200px;
+    width: 400px;
     height: 100vh;
     overflow: hidden;
     position: relative;
     margin: auto;
+}
+.startScreen {
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    z-index: 1;
+    top: 100px;
+    width: 50%;
+    left: 23%;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    font-size: 17px;
+    font-family: 700;
+    font-family: sans-serif;
 }
